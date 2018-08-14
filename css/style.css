@@ -1,0 +1,218 @@
+/* INITIALIZING PROJECT */
+:root {
+    --color-1: #3bd5ff;
+    --color-2: #315acc;
+    --color-3: #2d3c49;
+    --color-4: #7d97ad;
+}
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-3);
+    font-weight: 400;
+}
+
+/* PROJECT STYLING */
+.wrapper {
+    margin: 0 auto;
+    max-width: 95rem;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-transform: uppercase;
+    font-weight: normal;
+
+    border-bottom: 4px solid var(--color-4);
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+}
+.header__brand {
+    width: 10rem;
+}
+.header__logo {
+    fill: var(--color-1);
+}
+.header__title {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+.name {
+    font-size: 7.2rem;
+}
+.devname {
+    font-size: 2.8rem;
+    text-align: end;
+}
+.github-profile:link, .github-profile:visited {
+    text-decoration: none;
+    color: var(--color-3);
+}
+.github-icon {
+    height: 2rem;
+}
+
+.graphic-box {
+    width: 100%;
+    height: 42rem;
+    margin-bottom: 4rem;
+
+    background-image: url("../img/photo-1461749280684-dccba630e2f6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.featured-work {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    color: var(--color-4);
+}
+.featured__item {
+    width: 32%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    transition: all .3s;
+}
+.featured__item:hover {
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.4);
+    transform: translate(0, -2px);
+}
+.featured__title {
+    margin: 0 1.5rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid  #02b3e4;
+    padding: 1rem 0;
+}
+.featured__graphic {
+    max-width: 100%;
+    height: 18rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.featured__link .github-link {
+    width: 100%;
+    margin: auto;
+    padding: 2rem 0;
+    opacity: 0;
+    transition: all .3s;
+    font-size: 1.5rem;
+    color: var(--color-1);
+    background-color: transparent;
+}
+.featured__item:hover .github-link {
+    opacity: 1;
+    background-color: rgba(0,0,0,.9);
+}
+.featured__desc {
+    font-size: 2rem;
+    padding: 1.5rem;
+    transition: inherit;
+}
+.featured__link:link, .featured__link:visited {
+    text-decoration: none;
+}
+
+/* BACKGROUNDS FOR EACH FEATURED ITEM */
+.g1 {background-image: url("../img/michael-aleo-573165-unsplash.jpg");}
+.g2 {background-image: url("../img/rawpixel-675364-unsplash.jpg");}
+.g3 {background-image: url("../img/element5-digital-763867-unsplash.jpg")}
+.g4 {background-image: url("../img/branden-harvey-362096-unsplash.jpg")}
+.g5 {background-image: url("../img/scott-winterroth-696200-unsplash.jpg")}
+.g6 {background-image: url("../img/jay-wennington-2065-unsplash.jpg")}
+
+/* RESPONSIVE BREAKPOINTS */
+@media screen and (min-width: 1300px) {
+    .wrapper {
+        max-width: 120rem;
+    }
+    .featured__graphic {
+        height: 22rem;
+    }
+    .featured__graphic .github-link {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        max-width: 80rem;
+    }
+    .graphic-box {
+        height: 24rem;
+    }
+    .featured__item {
+        width: 48.5%;
+    }
+    .featured__title {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 800px){
+    .header__brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 13rem;
+        opacity: 0.2;
+    }
+    .header__title {
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .wrapper {
+        max-width: 100%;
+    }
+    .name {
+        font-size: 6rem;
+    }
+    .devname {
+        font-size: 2rem;
+    }
+    .featured__item {
+        width: 100%;
+    }
+    .featured__title {
+        margin: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .graphic-box {
+        height: 22rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .name {
+        font-size: 4.5rem;
+    }
+    .devname {
+        font-size: 2rem;
+    }
+    .header__brand {
+        width: 10rem;
+    }
+    .featured-work {
+        font-size: 3rem;
+    }
+}
