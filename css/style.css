@@ -190,9 +190,19 @@ body {
     }
     .featured__item {
         width: 100%;
+        margin-bottom: 4rem;
+        box-shadow: 0 0 1rem rgba(0,0,0,.4);
+    }
+    .featured__item:hover {
+        box-shadow: none;
+        transform: none;
     }
     .featured__title {
         margin: 0 4rem;
+    }
+    .featured__link .github-link {
+        opacity: 1;
+        background-color: rgba(0,0,0,.9);
     }
 }
 
