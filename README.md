@@ -25,4 +25,4 @@ https://unsplash.com/photos/OqtafYT5kTw
 https://unsplash.com/photos/q5AR3dSnVVQ
 	- Photo by rawpixel
 
-##### Icons made by www.flaticon.com is licensed by CC 3.0 BY
+##### earth-flat.svg made by www.flaticon.com is licensed by CC 3.0 BY
