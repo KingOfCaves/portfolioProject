@@ -1,7 +1,7 @@
 # portfolioProject
 
 ## Getting Started
-Setting up everything is as easy as downloading all of the files and then opening the index.html file.
+Setting up everything is as easy as downloading, extracting all of the files, then opening the index.html file.
 
 You can also view it [here](https://kingofcaves.github.io/portfolioProject/) through Github Pages.
 
