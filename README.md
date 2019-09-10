@@ -1,14 +1,20 @@
 # portfolioProject
 
-## Getting Started
+## GETTING STARTED
 Setting up everything is as easy as downloading, extracting all of the files, then opening the index.html file.
 
 You can also view it [here](https://kingofcaves.github.io/portfolioProject/) through Github Pages.
 
-## What is it?
+## WHAT IS IT?
 The portfolio project for the Udacity Nanodegree course.
 
-### Sources and Credits
+## SCREENSHOTS
+![picture of the portfolio in desktop](./docs/portfolio-project-1.jpg)
+![picture of the portfolio in laptop](./docs/portfolio-project-2.jpg)
+![picture of the portfolio in tablet](./docs/portfolio-project-3.jpg)
+![picture of the portfolio in mobile](./docs/portfolio-project-4.jpg)
+
+### SOURCES AND CREDITS
 https://unsplash.com/photos/LTyDj7u_TU4
 	- Photo by Element5 Digital
 
