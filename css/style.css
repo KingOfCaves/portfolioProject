@@ -70,18 +70,20 @@ body {
     background-repeat: no-repeat;
 }
 
-.featured {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.featured-work {
+.heading-secondary {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 2rem;
     width: 100%;
     color: var(--color-4);
 }
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .featured__item {
     width: 32%;
     height: auto;
