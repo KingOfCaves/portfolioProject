@@ -1,4 +1,4 @@
-# portfolioProject
+# wills-portfolio-project
 
 ## GETTING STARTED
 Setting up everything is as easy as downloading, extracting all of the files, then opening the index.html file.
