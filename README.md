@@ -1,12 +1,15 @@
 # wills-portfolio-project
+A portfolio page based of Udacity's design.
+
+https://kingofcaves.github.io/wills-portfolio-project/
 
 ## GETTING STARTED
 Setting up everything is as easy as downloading, extracting all of the files, then opening the index.html file.
 
-You can also view it [here](https://kingofcaves.github.io/portfolioProject/) through Github Pages.
+You can also view it using the link above. It's hosted through Github Pages.
 
 ## WHAT IS IT?
-The portfolio project for the Udacity Nanodegree course.
+The portfolio project for the Udacity Nanodegree course. By using the design provided by Udacity, you add your own projects and personality to it.
 
 ## SCREENSHOTS
 ![picture of the portfolio in desktop](./docs/portfolio-project-1.jpg)
